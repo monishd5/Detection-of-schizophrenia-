@@ -27,6 +27,8 @@ y_pred_svm = svm_classifier.predict(X_test)
 
 # Evaluate the model
 svm_accuracy = accuracy_score(y_test, y_pred_svm)
+
+
 print(f"SVM Accuracy: {svm_accuracy}")
 
 # Optional: Detailed classification metrics

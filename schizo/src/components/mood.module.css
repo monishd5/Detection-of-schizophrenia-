@@ -1,0 +1,76 @@
+.mood-tracker-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mood-tracker-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .mood-tracker-description {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+  
+  .mood-tracker-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .questionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between questions */
+  }
+  
+  .question {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .question-label {
+    margin-bottom: 8px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  .slider-value {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .calculate-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .calculate-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .total-score {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  /* body, h1, p {
+    margin: 0;
+    padding: 0;
+} */
